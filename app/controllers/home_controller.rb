@@ -68,16 +68,6 @@ class HomeController < ApplicationController
         ]
       ),
       Category.new(
-        'Museums',
-        [
-          {
-            title: 'Google Arts and Culture',
-            url: 'https://artsandculture.google.com/partner?hl=en',
-            description: 'Look at art from museums around the world.'
-          }
-        ]
-      ),
-      Category.new(
         'Explore',
         [
           {
@@ -94,6 +84,11 @@ class HomeController < ApplicationController
             title: 'Puppy Cam',
             url: 'https://www.cci.org/get-involved/puppy-day-puppy-cam.html',
             description: 'Watch puppies play with the Canine Companions Puppy Cam'
+          },
+          {
+            title: 'Google Arts and Culture',
+            url: 'https://artsandculture.google.com/partner?hl=en',
+            description: 'Look at art from museums around the world.'
           }
         ]
       ),
