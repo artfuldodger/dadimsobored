@@ -1,1 +1,10 @@
-OMG DAD I'M SO BORED
+<% @categories.each do |category| %>
+  <h2><%= category.name %></h2>
+
+  <dl class="row">
+    <% category.links.each do |link| %>
+      <dt class="col-sm-3"><%= link_to_if link.url.present?, link.title, link.url %></dt>
+      <dd class="col-sm-9"><%= link.description %></dd>
+    <% end %>
+  </dl>
+<% end %>
