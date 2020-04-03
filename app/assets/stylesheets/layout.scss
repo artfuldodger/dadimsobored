@@ -1,6 +1,11 @@
 @import "colors";
 
+.jumbotron {
+  margin-top: 1em;
+  background: $highlight;
+}
+
 #footer {
-  border-top: 1px solid $grey;
+  border-top: 1px solid $highlight;
   padding: 1em 0;
 }
