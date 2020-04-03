@@ -29,6 +29,26 @@ class HomeController < ApplicationController
             title: 'PBS LearningMedia',
             url: 'https://rmpbs.pbslearningmedia.org/',
             description: 'Educational videos from PBS.'
+          },
+          {
+            title: 'Prodigy Math Game',
+            url: 'https://www.prodigygame.com/',
+            description: 'Play a game while maybe learning some math along the way.'
+          }
+        ]
+      ),
+      Category.new(
+        'Read',
+        [
+          {
+            title: 'Storyline Online',
+            url: 'https://www.storylineonline.net/',
+            description: 'Fun videos of books being read outloud'
+          },
+          {
+            title: 'Audible Stories',
+            url: 'https://stories.audible.com/',
+            description: 'Free audiobooks for a huge number of kid books'
           }
         ]
       ),
@@ -64,6 +84,16 @@ class HomeController < ApplicationController
             title: 'National Parks Tours',
             url: 'https://artsandculture.withgoogle.com/en-us/national-parks-service',
             description: 'Take virtual tours of national parks.'
+          },
+          {
+            title: 'Aquarium Web Cams',
+            url: 'https://www.montereybayaquarium.org/animals/live-cams/',
+            description: 'Watch some web cams at the Monterey Bay Aquarium.'
+          },
+          {
+            title: 'Puppy Cam',
+            url: 'https://www.cci.org/get-involved/puppy-day-puppy-cam.html',
+            description: 'Watch puppies play with the Canine Companions Puppy Cam'
           }
         ]
       ),
@@ -85,6 +115,21 @@ class HomeController < ApplicationController
           {
             title: 'Do 10 burpees',
             description: 'Do a push up. Jump up. Clap your hands over your head. Repeat.'
+          }
+        ]
+      ),
+      Category.new(
+        'Art and Crafts',
+        [
+          {
+            title: 'Cardboard box projects',
+            url: 'https://www.google.com/search?q=cardboard+box+projects',
+            description: 'You can make a lot of fun stuff from cardboard boxes. Find a project.'
+          },
+          {
+            title: 'Art for Kids Hub',
+            url: 'https://www.youtube.com/user/ArtforKidsHub',
+            description: 'A YouTube channel with lots of art lessons to follow along.'
           }
         ]
       )
