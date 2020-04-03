@@ -11,14 +11,14 @@ class HomeController < ApplicationController
         'Learnings',
         [
           {
-            title: 'NASA at home',
-            url: 'https://www.nasa.gov/nasa-at-home-for-kids-and-families',
-            description: 'NASA curated activities, videos, and the like.'
-          },
-          {
             title: 'Khan Academy',
             url: 'https://www.khanacademy.org/',
             description: 'This is the best resource available for online classes. Math, science, art, computer science, and more targeted by grade.'
+          },
+          {
+            title: 'NASA at home',
+            url: 'https://www.nasa.gov/nasa-at-home-for-kids-and-families',
+            description: 'NASA curated activities, videos, and the like.'
           },
           {
             title: 'Scholastic Learn at Home',
@@ -29,11 +29,6 @@ class HomeController < ApplicationController
             title: 'PBS LearningMedia',
             url: 'https://rmpbs.pbslearningmedia.org/',
             description: 'Educational videos from PBS.'
-          },
-          {
-            title: 'TIME for Kids',
-            url: 'https://time.com/tfk-free/',
-            description: "Magazine that's free for this year only."
           }
         ]
       ),
@@ -44,6 +39,11 @@ class HomeController < ApplicationController
             title: 'PBS Kids',
             url: 'https://pbskids.org/',
             description: 'Games and TV from PBS'
+          },
+          {
+            title: 'TIME for Kids',
+            url: 'https://time.com/tfk-free/',
+            description: "Magazine that's free for this year only."
           }
         ]
       ),
@@ -72,7 +72,7 @@ class HomeController < ApplicationController
         [
           {
             title: 'Do 50 jumping jacks',
-            description: 'Jump up. Clap your hands.'
+            description: 'Jump up. Clap your hands. Maybe do these outside.'
           },
           {
             title: 'Do 10 push ups.',
@@ -81,6 +81,10 @@ class HomeController < ApplicationController
           {
             title: 'Run around the block twice',
             description: 'Go as fast as you can around the block. Twice.'
+          },
+          {
+            title: 'Do 10 burpees',
+            description: 'Do a push up. Jump up. Clap your hands over your head. Repeat.'
           }
         ]
       )
