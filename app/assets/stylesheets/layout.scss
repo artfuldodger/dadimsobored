@@ -3,9 +3,34 @@
 .jumbotron {
   margin-top: 1em;
   background: $highlight;
+  position: relative;
 }
 
 #footer {
   border-top: 1px solid $highlight;
   padding: 1em 0;
 }
+
+#background {
+  position: absolute;
+  top: 0;
+  background: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item {
+  height: 60px;
+  width: 60px;
+  opacity: 0;
+  transform: rotate(0deg);
+  transition: opacity 2s ease 0.4s, transform 0.4s ease;
+}
+
+.grid-item:hover {
+  opacity: 0.8;
+  transform: rotate(360deg);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+

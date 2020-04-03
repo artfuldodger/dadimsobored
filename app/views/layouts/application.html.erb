@@ -67,6 +67,10 @@
         <p class="lead">Some activities for kids who are stuck doing home learning and are <b>SO BORED</b></p>
         <hr class="my-4">
         <p>Please find some fun and, dare I say it, educational things to do below. Stop complaining.</p>
+
+        <div id="background">
+          <%= image_tag 'nerdface.png', class: 'grid-item' %>
+        </div>
       </div>
 
       <%= yield %>
@@ -75,5 +79,25 @@
         Made for Oliver and Audrey by <%= link_to 'Jon Evans', 'https://twitter.com/jon_evans', target: '_blank' %>. Copyright &copy; 2020.
       </div>
     </div>
+
+    <script>
+      $(document).ready(function() {
+        var $grid = $('#background');
+        var $gridItem = $('.grid-item');
+
+        var gridItemHeight = $gridItem.height();
+        var gridItemWidth = $gridItem.width();
+
+        var horzCount = Math.floor($grid.width() / gridItemWidth);
+        var vertCount = Math.floor($grid.height() / gridItemHeight);
+
+        var totalGridItems = horzCount * vertCount;
+
+        for (var i = 0; i < totalGridItems; i++) {
+          var $gridItemClone = $gridItem.clone();
+          $grid.append($gridItemClone);
+        }
+      })
+    </script>
   </body>
 </html>
