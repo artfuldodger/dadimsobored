@@ -49,6 +49,11 @@ class HomeController < ApplicationController
             title: 'Audible Stories',
             url: 'https://stories.audible.com/',
             description: 'Free audiobooks for a huge number of kid books'
+          },
+          {
+            title: 'Denver Library Story Time',
+            url: 'https://www.youtube.com/user/denverlibrary',
+            description: 'Stories read aloud at the Denver Public Library.'
           }
         ]
       ),
@@ -64,6 +69,11 @@ class HomeController < ApplicationController
             title: 'TIME for Kids',
             url: 'https://time.com/tfk-free/',
             description: "Magazine that's free for this year only."
+          },
+          {
+            title: 'Jeff and Paige',
+            url: 'https://www.jeffandpaige.org/',
+            description: "Bringing science and nature to life through kid-delighting music and stories"
           }
         ]
       ),
@@ -125,6 +135,11 @@ class HomeController < ApplicationController
             title: 'Art for Kids Hub',
             url: 'https://www.youtube.com/user/ArtforKidsHub',
             description: 'A YouTube channel with lots of art lessons to follow along.'
+          },
+          {
+            title: 'Lunch Doodles with Mo Willems',
+            url: 'https://www.youtube.com/watch?v=k4RfUC6-aKE&list=PL14hRqd0PELGbKihHuTqx_pbvCLqGbOkF',
+            description: 'Another YouTube channel with art lessons'
           }
         ]
       )
