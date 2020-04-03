@@ -34,6 +34,16 @@ class HomeController < ApplicationController
             title: 'Prodigy Math Game',
             url: 'https://www.prodigygame.com/',
             description: 'Play a game while maybe learning some math along the way.'
+          },
+          {
+            title: 'Tynker',
+            url: 'https://www.tynker.com/',
+            description: 'Learn to code by playing and modifying games.'
+          },
+          {
+            title: 'Scratch from MIT',
+            url: 'https://scratch.mit.edu/',
+            description: 'Learn to code by building games.'
           }
         ]
       ),
