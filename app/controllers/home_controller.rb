@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   def categories
     [
       Category.new(
-        'Learnings',
+        'Learning',
         [
           {
             title: 'Khan Academy',
@@ -43,7 +43,7 @@ class HomeController < ApplicationController
           {
             title: 'Storyline Online',
             url: 'https://www.storylineonline.net/',
-            description: 'Fun videos of books being read outloud'
+            description: 'Fun videos of books being read aloud'
           },
           {
             title: 'Audible Stories',
@@ -53,7 +53,7 @@ class HomeController < ApplicationController
         ]
       ),
       Category.new(
-        'Entertainments',
+        'Entertainment',
         [
           {
             title: 'PBS Kids',
