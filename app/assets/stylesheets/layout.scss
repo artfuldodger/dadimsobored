@@ -7,7 +7,7 @@
 }
 
 #footer {
-  border-top: 1px solid $highlight;
+  margin-top: 2em;
   padding: 1em 0;
 }
 
@@ -32,5 +32,26 @@
   opacity: 0.8;
   transform: rotate(360deg);
   transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.card {
+  margin-bottom: 1em;
+  border-color: $highlight;
+}
+
+.card-header {
+  background: $highlight;
+}
+
+.card-body .link-wrapper {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $highlight;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 }
 
