@@ -13,17 +13,17 @@ class HomeController < ApplicationController
           {
             title: 'Khan Academy',
             url: 'https://www.khanacademy.org/',
-            description: 'This is the best resource available for online classes. Math, science, art, computer science, and more targeted by grade.'
+            description: 'This is the best resource available for online classes. You can learn math, science, art, computer science, and more at your grade level.'
           },
           {
             title: 'Scholastic Learn at Home',
             url: 'https://classroommagazines.scholastic.com/support/learnathome.html',
-            description: "Scholastic's list of projects for everybody from preK to grade 9."
+            description: "A bunch of projects from Scholastic - you can also choose your own grade-level here."
           },
           {
             title: 'PBS LearningMedia',
             url: 'https://rmpbs.pbslearningmedia.org/',
-            description: 'Educational videos from PBS.'
+            description: 'Watch some educational videos from PBS.'
           },
           {
             title: 'Prodigy Math Game',
@@ -33,7 +33,7 @@ class HomeController < ApplicationController
           {
             title: 'NASA at home',
             url: 'https://www.nasa.gov/nasa-at-home-for-kids-and-families',
-            description: 'NASA curated activities, videos, and the like.'
+            description: 'NASA-curated activities, videos, and the like.'
           },
           {
             title: 'NASA Kids Club',
@@ -43,7 +43,7 @@ class HomeController < ApplicationController
           {
             title: 'Research Quest Live',
             url: 'https://nhmu.utah.edu/RQ-Live',
-            description: 'From the Natural History Museum of Utah, live science classes.'
+            description: 'From the Natural History Museum of Utah, you can attend live science classes.'
           },
           {
             title: 'Freckle',
@@ -58,17 +58,17 @@ class HomeController < ApplicationController
           {
             title: 'Storyline Online',
             url: 'https://www.storylineonline.net/',
-            description: 'Fun videos of books being read aloud'
+            description: 'Watch fun videos of books being read aloud'
           },
           {
             title: 'Audible Stories',
             url: 'https://stories.audible.com/',
-            description: 'Free audiobooks for a huge number of kid books'
+            description: 'Listen to free audiobooks for a huge number of kid books'
           },
           {
             title: 'Denver Library Story Time',
             url: 'https://www.youtube.com/user/denverlibrary',
-            description: 'Stories read aloud at the Denver Public Library.'
+            description: 'Listen to stories read aloud at the Denver Public Library.'
           },
           {
             title: 'Stories from Space',
