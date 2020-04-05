@@ -8,17 +8,12 @@ class HomeController < ApplicationController
   def categories
     [
       Category.new(
-        'Learning',
+        'Learn',
         [
           {
             title: 'Khan Academy',
             url: 'https://www.khanacademy.org/',
             description: 'This is the best resource available for online classes. Math, science, art, computer science, and more targeted by grade.'
-          },
-          {
-            title: 'NASA at home',
-            url: 'https://www.nasa.gov/nasa-at-home-for-kids-and-families',
-            description: 'NASA curated activities, videos, and the like.'
           },
           {
             title: 'Scholastic Learn at Home',
@@ -36,14 +31,19 @@ class HomeController < ApplicationController
             description: 'Play a game while maybe learning some math along the way.'
           },
           {
-            title: 'Tynker',
-            url: 'https://www.tynker.com/',
-            description: 'Learn to code by playing and modifying games.'
+            title: 'NASA at home',
+            url: 'https://www.nasa.gov/nasa-at-home-for-kids-and-families',
+            description: 'NASA curated activities, videos, and the like.'
           },
           {
-            title: 'Scratch from MIT',
-            url: 'https://scratch.mit.edu/',
-            description: 'Learn to code by building games.'
+            title: 'NASA Kids Club',
+            url: 'https://www.nasa.gov/kidsclub/index.html',
+            description: 'Play games and learn about NASA.'
+          },
+          {
+            title: 'Research Quest Live',
+            url: 'https://nhmu.utah.edu/RQ-Live',
+            description: 'From the Natural History Museum of Utah, live science classes.'
           }
         ]
       ),
@@ -64,6 +64,101 @@ class HomeController < ApplicationController
             title: 'Denver Library Story Time',
             url: 'https://www.youtube.com/user/denverlibrary',
             description: 'Stories read aloud at the Denver Public Library.'
+          },
+          {
+            title: 'Stories from Space',
+            url: 'https://storytimefromspace.com/',
+            description: 'Real astronauts read you stories from LITERALLY SPACE'
+          }
+        ]
+      ),
+      Category.new(
+        'Explore',
+        [
+          {
+            title: 'Explore.org',
+            url: 'hhttps://explore.org/',
+            description: 'Live cams of wildlife from all over. Also some documentaries.'
+          },
+          {
+            title: 'National Parks Tours',
+            url: 'https://artsandculture.withgoogle.com/en-us/national-parks-service',
+            description: 'Take virtual tours of national parks.'
+          },
+          {
+            title: 'Aquarium Web Cams',
+            url: 'https://www.montereybayaquarium.org/animals/live-cams/',
+            description: 'Watch some web cams at the Monterey Bay Aquarium.'
+          },
+          {
+            title: 'Puppy Cam',
+            url: 'https://www.cci.org/get-involved/puppy-day-puppy-cam.html',
+            description: 'Watch puppies play with the Canine Companions Puppy Cam'
+          },
+          {
+            title: 'Google Arts and Culture',
+            url: 'https://artsandculture.google.com/partner?hl=en',
+            description: 'Look at art from museums around the world.'
+          },
+          {
+            title: 'Cincinnati Zoo and Botanical Garden',
+            url: 'https://www.youtube.com/channel/UCE3VoxyYmyQCReOXk2ogsVg',
+            description: 'Videos from the Cincinnati Zoo. I like the one of hippos squishing watermelons.'
+          }
+        ]
+      ),
+      Category.new(
+        'Arts and Crafts',
+        [
+          {
+            title: 'Cardboard box projects',
+            url: 'https://www.google.com/search?q=cardboard+box+projects',
+            description: 'You can make a lot of fun stuff from cardboard boxes. Find a project.'
+          },
+          {
+            title: 'Art for Kids Hub',
+            url: 'https://www.youtube.com/user/ArtforKidsHub',
+            description: 'A YouTube channel with lots of art lessons to follow along.'
+          },
+          {
+            title: 'Lunch Doodles with Mo Willems',
+            url: 'https://www.youtube.com/watch?v=k4RfUC6-aKE&list=PL14hRqd0PELGbKihHuTqx_pbvCLqGbOkF',
+            description: 'Another YouTube channel with art lessons'
+          },
+          {
+            title: 'Sew a mask',
+            url: 'https://github.com/bldg61/tutorials/blob/master/sewing/medicalStyleMasks.pdf',
+            description: "If you've got some sewing skills and a parent helper, try making a medical-style mask."
+          }
+        ]
+      ),
+      Category.new(
+        'Programming',
+        [
+          {
+            title: 'Tynker',
+            url: 'https://www.tynker.com/',
+            description: 'Learn to code by playing and modifying games.'
+          },
+          {
+            title: 'Scratch from MIT',
+            url: 'https://scratch.mit.edu/',
+            description: 'Learn to code by building games.'
+          }
+        ]
+      ),
+      Category.new(
+        'Build a Website',
+        [
+          {
+            title: 'Neocities',
+            url: 'https://neocities.org/',
+            description: 'Make your own website and share it with the world.'
+          },
+          {
+            title: 'Blogger',
+            url: 'https://www.blogger.com/',
+            description: 'Create a blog. Share your thoughts, your poetry, your art, your pictures, etc!'
           }
         ]
       ),
@@ -88,31 +183,6 @@ class HomeController < ApplicationController
         ]
       ),
       Category.new(
-        'Explore',
-        [
-          {
-            title: 'National Parks Tours',
-            url: 'https://artsandculture.withgoogle.com/en-us/national-parks-service',
-            description: 'Take virtual tours of national parks.'
-          },
-          {
-            title: 'Aquarium Web Cams',
-            url: 'https://www.montereybayaquarium.org/animals/live-cams/',
-            description: 'Watch some web cams at the Monterey Bay Aquarium.'
-          },
-          {
-            title: 'Puppy Cam',
-            url: 'https://www.cci.org/get-involved/puppy-day-puppy-cam.html',
-            description: 'Watch puppies play with the Canine Companions Puppy Cam'
-          },
-          {
-            title: 'Google Arts and Culture',
-            url: 'https://artsandculture.google.com/partner?hl=en',
-            description: 'Look at art from museums around the world.'
-          }
-        ]
-      ),
-      Category.new(
         'Get Moving',
         [
           {
@@ -130,26 +200,6 @@ class HomeController < ApplicationController
           {
             title: 'Do 10 burpees',
             description: 'Do a push up. Jump up. Clap your hands over your head. Repeat.'
-          }
-        ]
-      ),
-      Category.new(
-        'Art and Crafts',
-        [
-          {
-            title: 'Cardboard box projects',
-            url: 'https://www.google.com/search?q=cardboard+box+projects',
-            description: 'You can make a lot of fun stuff from cardboard boxes. Find a project.'
-          },
-          {
-            title: 'Art for Kids Hub',
-            url: 'https://www.youtube.com/user/ArtforKidsHub',
-            description: 'A YouTube channel with lots of art lessons to follow along.'
-          },
-          {
-            title: 'Lunch Doodles with Mo Willems',
-            url: 'https://www.youtube.com/watch?v=k4RfUC6-aKE&list=PL14hRqd0PELGbKihHuTqx_pbvCLqGbOkF',
-            description: 'Another YouTube channel with art lessons'
           }
         ]
       )
