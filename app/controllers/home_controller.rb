@@ -44,6 +44,11 @@ class HomeController < ApplicationController
             title: 'Research Quest Live',
             url: 'https://nhmu.utah.edu/RQ-Live',
             description: 'From the Natural History Museum of Utah, live science classes.'
+          },
+          {
+            title: 'Freckle',
+            url: 'https://blog.freckle.com/freckle-at-home',
+            description: "You'll need a parent to sign up, but then you get great educational resources."
           }
         ]
       ),
@@ -144,6 +149,11 @@ class HomeController < ApplicationController
             title: 'Scratch from MIT',
             url: 'https://scratch.mit.edu/',
             description: 'Learn to code by building games.'
+          },
+          {
+            title: 'Microsoft MakeCode',
+            url: 'https://arcade.makecode.com/',
+            description: 'Another great option for learning to code by building games.'
           }
         ]
       ),
@@ -165,6 +175,11 @@ class HomeController < ApplicationController
       Category.new(
         'Entertainment',
         [
+          {
+            title: 'ABCya',
+            url: 'https://www.abcya.com/',
+            description: "Lots of exciting, free, educational web-based games"
+          },
           {
             title: 'PBS Kids',
             url: 'https://pbskids.org/',
