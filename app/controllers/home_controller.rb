@@ -82,7 +82,7 @@ class HomeController < ApplicationController
         [
           {
             title: 'Explore.org',
-            url: 'hhttps://explore.org/',
+            url: 'https://explore.org/',
             description: 'Live cams of wildlife from all over. Also some documentaries.'
           },
           {
