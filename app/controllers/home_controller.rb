@@ -141,6 +141,11 @@ class HomeController < ApplicationController
         'Programming',
         [
           {
+            title: 'Code.org',
+            url: 'https://code.org/athome',
+            description: 'Lots of fun programming classes and tutorials. Minecraft!'
+          },
+          {
             title: 'Tynker',
             url: 'https://www.tynker.com/',
             description: 'Learn to code by playing and modifying games.'
@@ -200,6 +205,11 @@ class HomeController < ApplicationController
       Category.new(
         'Get Moving',
         [
+          {
+            title: 'GoNoodle',
+            url: 'https://www.gonoodle.com/',
+            description: 'Watch some silly videos that get you moving!'
+          },
           {
             title: 'Do 50 jumping jacks',
             description: 'Jump up. Clap your hands. Maybe do these outside.'
