@@ -1,0 +1,30 @@
+.button-container {
+  text-align: center;
+
+  #the-button {
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 200px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 3em;
+    color: black;
+    font-family: 'Special Elite', cursive;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:hover {
+      border: 5px solid black;
+      text-decoration: none;
+      line-height: 390px;
+    }
+  }
+
+  #idea {
+    margin: 1em 0;
+    font-size: 2em;
+    font-family: 'Architects Daughter', cursive;
+  }
+}
