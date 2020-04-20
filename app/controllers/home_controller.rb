@@ -49,6 +49,11 @@ class HomeController < ApplicationController
             title: 'Freckle',
             url: 'https://blog.freckle.com/freckle-at-home',
             description: "You'll need a parent to sign up, but then you get great educational resources."
+          },
+          {
+            title: 'TEDEd',
+            url: 'https://ed.ted.com/lessons?direction=desc&sort=featured-position&user_by_click=student',
+            description: 'Lots of super interesting educational videos with illutrations. My favorite is The Bug that Poops Candy.'
           }
         ]
       ),
