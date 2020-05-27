@@ -151,6 +151,11 @@ class HomeController < ApplicationController
             description: 'Lots of fun programming classes and tutorials. Minecraft!'
           },
           {
+            title: 'Codecademy',
+            url: 'https://www.codecademy.com/',
+            description: 'Fancy and cool programming site that is good enough for adults so it is good enough for you'
+          },
+          {
             title: 'Tynker',
             url: 'https://www.tynker.com/',
             description: 'Learn to code by playing and modifying games.'
