@@ -4,7 +4,7 @@
     <div class="card-body">
       <% category.links.each do |link| %>
         <div class="link-wrapper">
-          <h5 class="card-title"><%= link_to_if link.url.present?, link.title, link.url %></h5>
+          <h5 class="card-title"><%= link_to_if link.url.present?, link.title, link.url, target: '_blank' %></h5>
           <p class="card-text"><%= link.description %></p>
         </div>
       <% end %>
